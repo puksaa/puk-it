@@ -1,4 +1,4 @@
-import { SUPABASE_URL, SUPABASE_ANON_KEY } from './config.js?v=101';
+import { SUPABASE_URL, SUPABASE_ANON_KEY } from './config.js?v=102';
 import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
 
 const login = document.querySelector('#login'), dashboard = document.querySelector('#dashboard'), logout = document.querySelector('#logout');
